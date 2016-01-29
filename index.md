@@ -7,4 +7,4 @@ layout: page
 
 This is Markdown.
 
-Linking to [about page](/about).
+Linking to [about page]({{ site.github.url }}/about).
