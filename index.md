@@ -7,6 +7,7 @@ layout: page
 
 This is Markdown.
 
-Ref: {{ page.url | prepend: site.github.url }}
+Page URL: {{ page.url }}
+Site URL: {{ site.github.url }}
 
-Linking to [about page]({{ page.url | prepend: site.github.url }}/about).
+Linking to [about page]({{ site.github.url }}/about).
